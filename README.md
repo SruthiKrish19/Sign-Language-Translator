@@ -8,7 +8,6 @@ This SLT is an easy, efficient and accurate mechanism which uses computerized di
 ### Working
 #### Module 1: Generation of Data Source and Pre-processing
 Images come in different shapes and sizes. They also come from different sources. Taking all these variations into consideration, we need to perform some pre-processing on any image data. RGB is the most popular encoding format, and the most “natural image format”, but is not very efficient for a machine to learn from an RGB image. 
-
 Also, among the first steps of data pre-processing are to make the images of the same size. Here we have used auto resizing for training to make all the images in the dataset convert into same resolution and also converted it into gray scale (Black & White image) to reduce the burden on the machine.
 
 #### Module 2: Feature Extraction & Training phase
@@ -24,10 +23,13 @@ Once successful results are obtained, they are noted, and it is evaluated using 
 #### Module 4: Testing phase & Implementation
 Once a model is Built and the data is trained, we move on to the testing phase.During this phase, the real time input data will be captured by the web cam which will undergo pre-processing and feature extraction using Open CV. The pre-processed data will be compared with the predicted result and produce the desired output as speech using Pysound (Python library).
 
+#### Process Flow
+![image](https://github.com/SruthiKrish19/Sign-Language-Translator/assets/76727733/c7244f75-39ce-4733-801f-7f69bdf95258)
+
 ### Publication Details
 **PAPER TITLE:** A Survey on Sign Language Translator
 
-**PUBLISHING DATE:** 5th November
+**PUBLISHING DATE:** 5th November 2022
 
 **PUBLISHING MEDIA:** International Research Journal of Modernization in Engineering Technology and Science, Volume:04 / Issue:11 / November-2022
 
